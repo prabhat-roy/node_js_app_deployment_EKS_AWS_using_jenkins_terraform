@@ -1,4 +1,4 @@
-sudo hostnamectl set-hostname jenkins-agent
+sudo hostnamectl set-hostname "jenkins-agent" --pretty
 sudo apt-get update && sudo apt-get upgrade -y
 cd /opt
 sudo apt-get install git wget unzip curl python3 python3-pip -y
